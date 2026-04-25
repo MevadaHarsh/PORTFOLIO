@@ -25,10 +25,14 @@ SECRET_KEY = 'django-insecure-ux7cudl5a03@e8zx0sr)n!dcf1tzm&qt)lq^g54x$01he^)jp!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    "harshmevada.in",
+    "www.harshevada.in"
+]
 
 CSRF_TRUSTED_ORIGINS = [
-    # "https://yourdomain.com",
+    "harshmevada.in",
+    "www.harshevada.in"
 ]
 
 # Application definition
