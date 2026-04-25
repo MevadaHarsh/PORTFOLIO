@@ -1,17 +1,4 @@
-# Python
+db.sqlite3
+venv/
 __pycache__/
 *.pyc
-
-# Virtual environment
-venv/
-
-# Database
-db.sqlite3
-*.sqlite3
-
-# Django
-*.log
-
-# IDE
-.vscode/
-.idea/
