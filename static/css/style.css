@@ -1,0 +1,203 @@
+.bg {
+    background-image: linear-gradient(to right, rgb(8 7 33), rgb(61 6 98));
+}
+
+
+.gradient-text {
+    background: radial-gradient(circle, #f866bb 17%, #ce78f7 60%);
+    color: transparent;
+    background-clip: text;
+}
+
+.tx-clr {
+    color: #a9b1c1;
+}
+
+
+.a-decoration {
+    color: white;
+    text-decoration: none;
+}
+
+.a-decoration li {
+    color: white;
+}
+
+.a-decoration:hover li {
+    color: rgb(131, 79, 255);
+}
+
+.btn-link {
+    background-color: #211843;
+    text-decoration: none;
+    border: 2px solid rgb(59, 40, 109);
+}
+
+.btn-link:hover {
+    background-color: #211843;
+    border: 2px solid rgb(121, 80, 215);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.btn-link:hover .a-decoration {
+    color: rgb(121, 80, 215);
+}
+
+.btn-link:hover svg {
+    color: rgb(121, 80, 215);
+    transform: rotate(10deg);
+    transition: 0.2s;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .about-section {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .about {
+        width: 90% !important;
+
+    }
+
+    .m-r {
+        margin-left: 0px !important;
+    }
+}
+
+.m-r {
+    margin-left: 100px;
+}
+
+.bg-clr {
+    background-color: rgba(33, 24, 67, 0.654);
+    border: 1px solid rgb(121, 80, 215);
+    color: rgb(172 176 198);
+    font-size: 18px;
+}
+
+.bg-a {
+    background-color: rgba(33, 24, 67, 0.654);
+    border: 1px solid rgb(90, 62, 155);
+    color: rgb(172 176 198);
+    font-size: 18px;
+}
+
+.bg-a:hover {
+    border: 1px solid rgb(131, 79, 255);
+}
+
+.bg-clr:hover .arr {
+    transform: rotate(30deg);
+    transition: 0.3s;
+}
+
+.bg-clr:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 50px rgb(121, 80, 215);
+    transition: 0.3s;
+    transform: translateY(-10px) scale(1.025);
+}
+
+.icon {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+.icon:hover i {
+    color: rgb(121, 80, 215);
+}
+
+.bt-submit {
+    background-color: rgb(121, 80, 215);
+    border: 0px;
+    color: rgb(212, 212, 212);
+}
+
+.bt-submit:hover {
+    background-color: rgb(138, 102, 224);
+    color: white;
+}
+
+.in {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    background: transparent;
+    backdrop-filter: blur(25px);
+}
+
+.in-f {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(131, 79, 255);
+    border-radius: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    padding: 10px 0;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.in-f:focus {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(131, 79, 255);
+    border-radius: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    padding: 10px 0;
+    outline: none;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.pt {
+    text-decoration: none;
+}
+
+.pt:hover {
+    text-decoration: underline;
+}
+
+option {
+    background-color: black;
+}
+
+.nav-link:hover {
+    color: rgb(131, 79, 255);
+
+}
+
+.btn-Resume {
+    background-color: rgb(131, 79, 255);
+    color: white;
+}
+
+.btn-Resume:hover {
+    background-color: rgb(116, 58, 253);
+    color: white;
+}
+
+.ft-ul li a {
+    color: rgb(172 176 198);
+    text-decoration: none;
+}
+
+.ft-ul li a:hover {
+    color: rgb(131, 79, 255);
+}

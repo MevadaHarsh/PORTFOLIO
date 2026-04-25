@@ -1,0 +1,434 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Harsh Mevada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+<body class="bg">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-sm navbar-dark mb-4" style="background-color: rgb(13, 7, 37);">
+        <div class="container">
+            <a class="navbar-brand gradient-text fw-bold" href="">Harsh Mevada</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto tx-clr gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item download">
+                        <a class="btn btn-Resume" href="{% static 'files/RESUME-HARSH MEVADA.pdf' %}">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Start -->
+
+    <!-- Main part start -->
+    <section>
+        <div class="container d-flex flex-column align-items-center text-center p-5 mb-5">
+            <img src="{% static 'img/3.jpeg' %}" alt=""
+                style="width: 300px; border: 5px solid rgb(223 114 219); box-shadow: 1px 1px 20px rgb(121, 80, 215);"
+                class="rounded-circle  img-fluid mt-5">
+            <h1 class="gradient-text fw-bold display-2 mt-3">Harsh Mevada</h1>
+            <h2 class="mt-4 mb-4" style="color: rgb(188, 196, 213);">Full-Stack Developer</h2>
+            <p style="color: rgb(127, 139, 167)" class="">Crafting beautiful, functional web experiences with modern
+                technologies. Passionate about clean code,
+                elegant design, and solving complex problems.</p>
+            <div class="links mt-4 ">
+                <ul class="d-flex flex-row gap-3 list-unstyled flex-wrap align-items-center justify-content-center">
+                    <a href="https://www.linkedin.com/in/harsh-mevada"
+                        class="a-decoration d-flex align-items-center justify-content-center gap-2">
+                        <li class="btn btn-link px-4 py-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-linkedin group-hover:rotate-12 transition-transform">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect width="4" height="12" x="2" y="9"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            LinkedIn
+                        </li>
+                    </a>
+                    <a href="https://github.com/MevadaHarsh"
+                        class="a-decoration d-flex align-items-center justify-content-cente gap-2">
+                        <li class="btn btn-link px-4 py-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-github group-hover:rotate-12 transition-transform"
+                                data-fg-d3bl128="0.8:8.1112:/src/app/App.tsx:368:17:17577:75:e:Github::::::t8f"
+                                data-fgid-d3bl128=":r5u:">
+                                <path
+                                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                </path>
+                                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                            </svg>
+                            Github
+                        </li>
+                    </a>
+                    <a href="https://www.instagram.com/mr_h_r_/?utm_source=ig_web_button_share_sheet"
+                        class="a-decoration d-flex align-items-center justify-content-cente gap-2">
+                        <li class="btn btn-link px-4 py-2   ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                viewBox="0 0 50 50" style="fill:#FFFFFF;">
+                                <path
+                                    d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z">
+                                </path>
+                            </svg>
+                            Instragram
+                        </li>
+                    </a>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Main part end -->
+
+    <!-- About me start -->
+    <section id="about"
+        class="container d-flex flex-column align-items-center justify-content-center about-section mb-5 mx-auto"
+        style="margin-top: 130px;">
+        <h1 class=" mt-5  fw-bold" style="color: rgb(198, 119, 254);">About Me</h1>
+        <div class="about rounded-4 p-4 pb-1 mt-3 w-75 bg-a">
+            <p>
+                I am an aspiring full-stack web developer with a solid foundation in HTML, CSS, Bootstrap, JavaScript,
+                Python, and Django. I enjoy building responsive and user-friendly web applications while understanding
+                how frontend and backend technologies work together. Through hands-on projects, I have developed
+                practical experience in creating dynamic websites and improving my problem-solving skills.
+            </p>
+
+            <p>
+                I am currently seeking an internship or entry-level opportunity where I can apply my knowledge in a
+                real-world environment, learn from experienced developers, and grow as a professional. I am highly
+                motivated to continuously improve my skills, adapt to new technologies, and contribute effectively to a
+                development team.
+            </p>
+        </div>
+    </section>
+    <!-- About me end -->
+
+    <!-- Projects Start-->
+    <section id="projects" class="container d-flex flex-column align-items-center justify-content-center  mb-5"
+        style="margin-top: 180px;">
+        <h1 class=" mt-5  fw-bold" style="color: rgb(198, 119, 254);">Projects</h1>
+        <div class="container d-flex flex-wrap py-5 justify-content-center gap-5">
+            <div class=" bg-clr p-4 rounded-4 " style="width: 600px;">
+                <a href="https://student-management-system-k9zx.onrender.com/" style="text-decoration: none;" target="_blank">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="text-light">Student Management System <br> (CRUD Application)</h3>
+                        <svg class="arr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="rgb(194, 122, 255)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-external-link text-purple-400 hover:text-pink-400 transition-colors cursor-pointer group-hover:rotate-45 duration-300"
+                            data-fg-d3bl84="0.8:8.1112:/src/app/App.tsx:263:19:12399:142:e:ExternalLink::::::tit"
+                            data-fgid-d3bl84=":r24:">
+                            <path d="M15 3h6v6"></path>
+                            <path d="M10 14 21 3"></path>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        </svg>
+                    </div>
+                    <p class="text-secondary mt-3" style="font-size: 16px;">Built a CRUD-based student management system
+                        using Django with a responsive Bootstrap interface.</p>
+                    <div class="langauge mt-4 d-flex flex-wrap gap-2" style="font-size: 14px;">
+                        <span class="rounded-pill text py-2 px-3"
+                            style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">HTML</span>
+                        <span class="rounded-pill text py-2 px-3 "
+                            style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">CSS</span>
+                        <span class="rounded-pill text py-2 px-3 "
+                            style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">BOOTSTRAP</span>
+                        <span class="rounded-pill text py-2 px-3 "
+                            style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">PYTHON</span>
+                        <span class="rounded-pill text py-2 px-3 "
+                            style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">DJANGO</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class=" bg-clr p-4 rounded-4 " style="width: 600px;">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h3 class="text-light">E-Commerce Web Application</h3>
+                    <svg class="arr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="rgb(194, 122, 255)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-external-link text-purple-400 hover:text-pink-400 transition-colors cursor-pointer group-hover:rotate-45 duration-300"
+                        data-fg-d3bl84="0.8:8.1112:/src/app/App.tsx:263:19:12399:142:e:ExternalLink::::::tit"
+                        data-fgid-d3bl84=":r24:">
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14 21 3"></path>
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    </svg>
+                </div>
+                <p class="text-secondary mt-3" style="font-size: 16px;">Built a Django-based e-commerce system with
+                    login/logout, email integration, and dynamic data handling.</p>
+                <div class="langauge mt-4 d-flex flex-wrap gap-2" style="font-size: 14px;">
+                    <span class="rounded-pill text py-2 px-3"
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">HTML</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">CSS</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">BOOTSTRAP</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">PYTHON</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">DJANGO</span>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Projects End-->
+
+    <!-- Skills start -->
+    <section id="skills" class="container d-flex flex-column align-items-center justify-content-center  mb-5"
+        style="margin-top: 180px;">
+        <h1 class=" mt-5  fw-bold" style="color: rgb(198, 119, 254);">Skills & Expertise</h1>
+
+        <div class="container d-flex flex-wrap py-5 justify-content-center gap-5">
+            <div class=" bg-a p-4 rounded-4 " style="width: 600px;">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="rounded-4 p-2" style="background-color: oklch(0.34 0.15 301.17);">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-code-xml text-purple-400"
+                            data-fg-d3bl101="0.8:8.1112:/src/app/App.tsx:307:23:14473:46:e:Icon"
+                            data-fgid-d3bl101=":r3g:">
+                            <path d="m18 16 4-4-4-4"></path>
+                            <path d="m6 8-4 4 4 4"></path>
+                            <path d="m14.5 4-5 16"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-light">Frontend Development</h3>
+                </div>
+                <div class="langauge mt-4 d-flex flex-wrap gap-2" style="font-size: 14px;">
+                    <span class="rounded-pill text py-2 px-3"
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">HTML</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">CSS</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">JAVASCRIPT</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style="background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">BOOTSTRAP</span>
+                </div>
+            </div>
+            <div class=" bg-a p-4 rounded-4 " style="width: 600px;">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="rounded-4 p-2" style="background-color: oklch(0.34 0.15 301.17);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-database text-purple-400"
+                            data-fg-d3bl101="0.8:8.1112:/src/app/App.tsx:307:23:14473:46:e:Icon"
+                            data-fgid-d3bl101=":r56:">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                            <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                            <path d="M3 12A9 3 0 0 0 21 12"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-light">Backend Development</h3>
+                </div>
+                <div class="langauge mt-4 d-flex flex-wrap gap-2" style="font-size: 14px;">
+                    <span class="rounded-pill text py-2 px-3"
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">C
+                        LANG</span>
+                    <span class="rounded-pill text py-2 px-3"
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">C++</span>
+                    <span class="rounded-pill text py-2 px-3"
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">PYTHON</span>
+                    <span class="rounded-pill text py-2 px-3 "
+                        style=" background-color: rgb(67, 28, 111); border: 1px solid rgb(95, 39, 153); color: rgb(178, 138, 217);">DJANGO</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Skill End -->
+
+    <!-- contact start -->
+    <section id="contact" class="container d-flex flex-column align-items-center justify-content-center  mb-5"
+        style="margin-top: 180px;">
+        <div class="contact d-flex flex-column align-items-center">
+            <h1 class=" mt-5  fw-bold" style="color: rgb(198, 119, 254);">Contact Me</h1>
+            <div class="row mt-5 d-flex justify-content-center align-items-center gap-5">
+                <div class="col-lg text-light">
+                    <div>
+                        <h6 class="gradient-text mb-4">GET IN TOUCH</h6>
+                        <h1 class="mb-4">Ready to learn, build, <br> and make an <span
+                                style="color: rgb(198, 119, 254);">impact.</span></h1>
+                        <p class="" style="color: rgb(188, 196, 213);">I enjoy building web applications and learning
+                            new technologies. I’m looking for an
+                            opportunity
+                            where I can contribute and improve my development skills.
+                        <p style="color: rgb(188, 196, 213);">Open to internships, fresher roles, and learning
+                            opportunities.</p>
+                    </div>
+                    <div class="mt-5 mb-5">
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center"
+                                style="width: 50px; height:50px;">
+                                <i class="fas fa-envelope" style="color:rgb(198, 119, 254); font-size:18px;"></i>
+                            </div>
+                            <div>
+                                <h6 style="color: rgb(198, 119, 254);">EMAIL</h6>
+                                <p style="color: rgb(188, 196, 213); padding:0; margin:0;">harshmevada03@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center"
+                                style="width: 50px; height:50px;">
+                                <i class="fas fa-phone" style="color:rgb(198, 119, 254); font-size:18px;"></i>
+                            </div>
+                            <div>
+                                <h6 style="color: rgb(198, 119, 254);">PHONE</h6>
+                                <p style="color: rgb(188, 196, 213); padding:0; margin:0;">+91 91732 30955</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center "
+                                style="width: 50px; height:50px;">
+                                <i class="fas fa-location-dot" style="color:rgb(198, 119, 254); font-size:18px;"></i>
+                            </div>
+                            <div>
+                                <h6 style="color: rgb(198, 119, 254);">LOCATION</h6>
+                                <p style="color: rgb(188, 196, 213); padding:0; margin:0;">Ahmedabad, Gujarat, India.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <a href="https://www.linkedin.com/in/harsh-mevada"
+                                class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center icon"
+                                style="width: 40px; height:40px;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/mr_h_r_/?utm_source=ig_web_button_share_sheet"
+                                class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center icon"
+                                style="width: 40px; height:40px;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/MevadaHarsh"
+                                class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center icon"
+                                style="width: 40px; height:40px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="bg-a rounded-4" style="padding: 50px 35px;">
+                        <div class="">
+                            <h3>Send a message</h3>
+                            <p>Feel free to reach out for opportunities or collaborations.</p>
+                        </div>
+                        <div class="mt-4">
+                            <form action="" method="post">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control in-f" id="name" name="name" required>
+                                    <span class="bar"></span>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="email">Email address:</label>
+                                    <input type="email" class="form-control in-f" id="email" name="email" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="subject">Subject:</label>
+                                    <select class="form-control in-f" name="subject" aria-placeholder="hello" required>
+                                        <option class="" disabled selected>Select a topic..</option>
+                                        <option value="internship">Internship Opportunity</option>
+                                        <option value="fresher">Fresher Job Role</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="message">Comment:</label>
+                                    <textarea class="form-control in-f" rows="5" id="message" name="message" required></textarea>
+                                </div>
+                                <div class="form-group mt-4">
+                                    <input type="submit" class="form-control bt-submit" value="Send Message">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- Footer Start -->
+    <section class="p-3 text-light" style="background-color: rgb(13, 7, 37); border-top: 1px solid rgb(231, 231, 231);">
+        <div class="container">
+            <div class="row gap-3">
+                <div class="col-md">
+                    <h3 class="gradient-text">Harsh Mevada</h3>
+                    <p class="mt-4" style="color: rgb(172 176 198);">Designed & Developed by Harsh Mevada</p>
+                    <p style="color: rgb(172 176 198);">Aspiring Full-Stack Developer | Open to Opportunities</p>
+                </div>
+                <div class="col-md">
+                    <div class="m-r">
+                        <h4 style="color: rgb(198, 119, 254);">Links</h4>
+                        <ul class="list-unstyled ft-ul">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <p class="gradient-text" style="color: rgb(172 176 198);">&copy; Harsh Mevada All rights reserved.
+                    </p>
+                    <p style="color: rgb(172 176 198);">Built with HTML, CSS, Bootstrap & Django.</p>
+                    <div class="d-flex">
+                        <a href="https://www.linkedin.com/in/harsh-mevada"
+                            class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center icon"
+                            style="width: 40px; height:40px;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mr_h_r_/?utm_source=ig_web_button_share_sheet"
+                            class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center icon"
+                            style="width: 40px; height:40px;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/MevadaHarsh"
+                            class="rounded-circle me-3 bg-a d-flex align-items-center justify-content-center icon"
+                            style="width: 40px; height:40px;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer End -->
+</body>
+
+</html>
