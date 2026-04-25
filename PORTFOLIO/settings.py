@@ -26,13 +26,14 @@ SECRET_KEY = 'django-insecure-ux7cudl5a03@e8zx0sr)n!dcf1tzm&qt)lq^g54x$01he^)jp!
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "harshmevada.in",
-    "www.harshevada.in"
+    "www.harshevada.in",
+    "portfolio-production-7129.up.railway.app"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "harshmevada.in",
-    "www.harshevada.in"
+    "https://harshmevada.in",
+    "https://www.harshevada.in",
+    "https://portfolio-production-7129.up.railway.app"
 ]
 
 # Application definition
