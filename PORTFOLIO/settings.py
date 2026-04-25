@@ -27,14 +27,15 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     "www.harshevada.in",
-    "portfolio-production-7129.up.railway.app"
+    "portfolio-production-7129.up.railway.app",
+    ""
 ]
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://harshmevada.in",
-    "https://www.harshevada.in",
-    "https://portfolio-production-7129.up.railway.app"
-]
+# CSRF_TRUSTED_ORIGINS = [
+#     "https://harshmevada.in",
+#     "https://www.harshevada.in",
+#     "https://portfolio-production-7129.up.railway.app"
+# ]
 
 # Application definition
 
