@@ -24,7 +24,6 @@ def home(request):
     return HttpResponse("My Portfolio is Live 🚀")
 
 urlpatterns = [
-    path('', home),
     path('admin/', admin.site.urls),
     path('', include('harsh_mevada.urls')),
 ]
